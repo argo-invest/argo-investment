@@ -161,3 +161,60 @@ footer {
         margin: 5px 0;
     }
 }
+/* Genel Ayarlar */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Başlık ve Header */
+header {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Bölümler */
+section {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  color: #4b6cb7;
+  margin-bottom: 20px;
+}
+
+/* İletişim Linkleri */
+a {
+  color: #182848;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #182848;
+  color: white;
+}
+
